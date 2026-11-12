@@ -15,6 +15,6 @@ echo "PID of the current script: $$"
 sleep 10 &
 echo "PID of the command running in background now: $!"
 wait $! # script waits until $! command complete
-echo "Line number: $LINEN"
+echo "Line number: $"
 echo "previous command exit status: $?"
 echo "Total time executed for this script: $SECONDS seconds"

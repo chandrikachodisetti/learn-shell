@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "COURSE=$course"
-echo "DURATION=$duration"
-echo "LEARNER=$learner"
+echo "$course"
+echo "$duration"
+echo "$learner"

@@ -2,7 +2,7 @@
 
 a=1
 b=2
-c=jaya
+c=3
 
 echo "$(($a+$b+$c))"
 echo "$a+$b+$c"

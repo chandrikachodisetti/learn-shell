@@ -15,4 +15,4 @@ echo "count is : $count"
 
 devops tools="linux" "shell" "ansible"
 
-echo "devops tools are=$($devops tools)"
+echo "devops tools are=$({$devops tools@})"

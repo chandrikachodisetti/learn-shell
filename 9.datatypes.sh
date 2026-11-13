@@ -13,6 +13,6 @@ count=count+1
 
 echo "count is : $count"
 
-devops tools="linux" "shell" "ansible"
+devops tools={"linux" "shell" "ansible"}
 
 echo "devops tools are=$({$devops tools@})"

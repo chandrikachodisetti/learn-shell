@@ -18,5 +18,6 @@ devops=("linux" "shell" "ansible")##this is call array
 
 echo "devops tools are=${devops[@]}"
 
+
 mail="chandrikachodisetti"
-echo "$mail@gmail.com"
+echo "my mail is: $mail@gmail.com"

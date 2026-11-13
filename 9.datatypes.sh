@@ -2,9 +2,10 @@
 
 a=1
 b=2
+c=jaya
 
-echo "$(($a+$b))"
-echo "$a+$b"
+echo "$(($a+$b+$c))"
+echo "$a+$b+$c"
 
 declare -i count=5 ##this is declaration for integer
 ## if we does not mention the declaration it takes as "string"
@@ -12,6 +13,6 @@ count=count+1
 
 echo "count is : $count"
 
-devops tools="linux shell ansible"
+devops tools="linux" "shell" "ansible"
 
-echo "devops tools are=$devops tools"
+echo "devops tools are=$($devops tools)"

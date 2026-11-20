@@ -4,7 +4,7 @@ a=1
 b=2
 c=3
 
-echo "$(($a+$b+$c))"
+echo "$((a+b+c))"
 echo "($a+$b+$c)"
 
 declare -i count=5 ##this is declaration for integer

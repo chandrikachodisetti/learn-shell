@@ -13,9 +13,9 @@ count=count+1
 
 echo "count is : $count"
 
-devops="linux" "shell" "ansible"##this is call array
+devops=("linux" "shell" "ansible")##this is call array
 echo "devops tools are=${devops[@]}"
-echo "first tool=${devops[$1]}"
+echo "first tool=${devops[0]}"
 
 
 mail="chandrikachodisetti"

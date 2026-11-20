@@ -4,6 +4,7 @@ user_id=$(id -u)
 
 if [ $user_id -ne 0 ]; then
     echo "PLZ RUN THIS SCRIPT WITH SUDO ACCESS"
+    Exit 1
 fi
 
 dnf install nginx -y

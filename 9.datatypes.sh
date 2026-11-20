@@ -7,7 +7,7 @@ c=3
 echo "$((a+b+c))"
 echo "($a+$b+$c)"
 
-declare -i count=5 ##this is declaration for integer
+count=5 ##this is declaration for integer
 ## if we does not mention the declaration it takes as "string"
 count=count+1
 

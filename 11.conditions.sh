@@ -13,8 +13,13 @@ if [ $? -ne 0 ]; then
    echo "nginx installation is failed"
 else
    echo "success"
-   
+
 dnf install mysqlll -y
+
+if [ $? -ne 0 ]; then
+   echo "mysql installation is failed"
+else
+   echo "success"
 
 echo "still procedding"
 

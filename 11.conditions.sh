@@ -11,9 +11,10 @@ dnf install nginxxx -y
 
 if [ $? -ne 0 ]; then
    echo "nginx installation is failed"
+   exit 1
+   
 else
    echo "success"
-   exit 1
 fi
 
 dnf install mysqlll -y

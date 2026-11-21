@@ -7,4 +7,6 @@ if [ $user_id -ne 0 ]; then
     
 fi
 
+dnf install nginx -y
+
 

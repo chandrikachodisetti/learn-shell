@@ -8,6 +8,7 @@ if [ $user_id -ne 0 ]; then
 fi
 echo "procedding"
 dnf install nginxxx -y
+exit 1
 
 dnf install mysqlll -y
 

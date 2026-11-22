@@ -1,3 +1,5 @@
+#!/bin/bash
+
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Page-1" id="mlBRE7OOXN5YrN-AWHIx">
     <mxGraphModel dx="1030" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">

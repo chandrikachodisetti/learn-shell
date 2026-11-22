@@ -1,0 +1,1 @@
+![AWS CLI diagram](aws-cli.png)
